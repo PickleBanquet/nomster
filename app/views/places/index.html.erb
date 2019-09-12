@@ -1,3 +1,15 @@
+<%= will_paginate @places %>
+
+<% for place in @places %>
+  <div class="place">
+    <h2><%= link to place.name, place %></h2>
+    <div class="details">
+      <%= numberr_to_currency(product.price) %>  |
+      Released <%= product.released_at.strftime("%B %e, %Y") %>
+    </div>
+  </div>
+<% end %>
+
 <% @places.each do |place| %>
   <div class="booyah-box col-10 offset-1">
     <h1><%= place.name %></h1>
