@@ -47,22 +47,22 @@ body {
 }
 
 .digg_pagination .disabled {
-  color: #999999;
-  border: 1px solid #dddddd; 
+  color: #d48d72;
+  border: 1px solid #d48d72; 
 }
 
 .digg_pagination .current {
   font-style: normal;
   font-weight: bold;
-  background: #2e6ab1;
+  background: #D4511F;
   color: white;
-  border: 1px solid #2e6ab1; 
+  border: 1px solid #D4511F; 
 }
 
 .digg_pagination a {
   text-decoration: none;
-  color: #105cb6;
-  border: 1px solid #9aafe5; 
+  color: #000000;
+  border: 1px solid #D4511F; 
 }
 
 .digg_pagination a:hover, .digg_pagination a:focus {
