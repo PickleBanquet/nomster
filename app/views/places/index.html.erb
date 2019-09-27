@@ -1,8 +1,5 @@
-<div class="digg_pagination">
-  <div class="page_info">
-      <%= page_entries_info @posts %>
-  </div>
-  <%= will_paginate @posts, :container => false %>
+<div class="pagination justify-content-center">
+  <%= will_paginate @products, previous_label: h("<"), next_label: h(">") %>
 </div>
 
 <% @places.each do |place| %>
