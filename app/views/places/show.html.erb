@@ -28,11 +28,12 @@
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBR_7GLcXVBqvHqFriF4sxRMfbnmnqQvAA&callback=initMap">
   </script>
 
-  <div id="map"></div>
   <% end %>
 
+  <div id="map"></div>
+
   <br />
-  
+
   <div class="float-right">
     <% if current_user && current_user == @place.user %>
       <%= link_to 'Edit', edit_place_path(@place), class: 'btn btn-primary' %>
