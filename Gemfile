@@ -5,6 +5,8 @@ ruby '2.5.3'
 
 gem 'figaro'
 gem 'geocoder'
+gem 'carrierwave', '~> 1.0'
+gem 'fog-aws'
 gem 'jquery-rails'
 gem 'will_paginate', '~> 3.1.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
